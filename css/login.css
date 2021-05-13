@@ -212,10 +212,10 @@ button:hover {
 
 /* Extra style for the cancel button (red) */
 
-.cancelbtn {
-	width: auto;
+.registerbtn {
+	width: 100px;
 	padding: 10px 18px;
-	background-color: #f44336;
+	background-color: #04AA6D;
 }
 
 /* Center the avatar image inside this container */
@@ -252,7 +252,7 @@ span.psw {
 		display: block;
 		float: none;
 	}
-	.cancelbtn {
+	.registerbtn {
 		width: 100%;
 	}
 }
@@ -260,7 +260,7 @@ span.psw {
 }
 
 body {
-	background-color: #BD9F79 !important ;
+	background-color: #BD9F79 !important;
 	height: 100% !important ;
 	margin: 0;
 	padding: 0;
