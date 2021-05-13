@@ -1,20 +1,18 @@
 /* Navbar*/
 
 .navbar {
-    background-color: #BD9F79 ; 
-    }
+	background-color: #BD9F79;
+}
 
 ul {
-        font-size: 30px;
-        font-family: 'Lato', sans-serif;
-        text-align: center;     
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
 }
 
 .nav-link {
-    color: black ;
+	color: black;
 }
-
-
 
 /* Footer */
 
@@ -26,65 +24,64 @@ ul {
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
-	margin-top: 80px;
-	position: ;
-  }
-  
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right {
+	position: absolute;
+	bottom: 0;
+	height: 250px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
 	display: inline-block;
 	vertical-align: top;
-  }
-  
-  /* Footer left */
-  
-  .footer-distributed .footer-left {
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
 	width: 40%;
-  }
-  
-  /* The company logo */
-  
-  .footer-distributed h3 {
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
 	color: #ffffff;
 	font: normal 36px "Cookie", cursive;
 	margin: 0;
-  }
-  
-  .footer-distributed h3 span {
+}
+
+.footer-distributed h3 span {
 	color: #221411;
-  }
-  
-  /* Footer links */
-  
-  .footer-distributed .footer-links {
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
 	color: #221411;
-	margin: 20px 0 12px;
+	margin: 0px 0 12px;
 	padding: 0;
-  }
-  
-  .footer-distributed .footer-links a {
+}
+
+.footer-distributed .footer-links a {
 	display: inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color: inherit;
-  }
-  
-  .footer-distributed .footer-company-name {
+}
+
+.footer-distributed .footer-company-name {
 	color: #221411;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
 	font-weight: bold;
-  }
-  
-  /* Footer Center */
-  
-  .footer-distributed .footer-center {
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
 	width: 35%;
-  }
-  
-  .footer-distributed .footer-center i {
+}
+
+.footer-distributed .footer-center i {
 	background-color: #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -95,115 +92,109 @@ ul {
 	line-height: 42px;
 	margin: 10px 15px;
 	vertical-align: middle;
-  }
-  
-  .footer-distributed .footer-center i.fa-envelope {
+}
+
+.footer-distributed .footer-center i.fa-envelope {
 	font-size: 17px;
 	line-height: 38px;
-  }
-  
-  .footer-distributed .footer-center p {
+}
+
+.footer-distributed .footer-center p {
 	display: inline-block;
 	color: #221411;
 	vertical-align: middle;
 	margin: 0;
 	font-weight: bold;
-  }
-  
-  .footer-distributed .footer-center p span {
+}
+
+.footer-distributed .footer-center p span {
 	display: block;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 2;
-  }
-  
-  .footer-distributed .footer-center p a {
+}
+
+.footer-distributed .footer-center p a {
 	color: #5383d3;
 	text-decoration: none;
-  }
-  
-  /* Footer Right */
-  
-  .footer-distributed .footer-right {
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
 	width: 20%;
-  }
-  
-  .footer-distributed .footer-company-about {
+}
+
+.footer-distributed .footer-company-about {
 	line-height: 20px;
 	color: #221411;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
-  }
-  
-  .footer-distributed .footer-company-about span {
+}
+
+.footer-distributed .footer-company-about span {
 	display: block;
 	color: #221411;
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
-  }
-  
-  .footer-distributed .footer-icons {
+}
+
+.footer-distributed .footer-icons {
 	margin-top: 25px;
-  }
-  
-  .footer-distributed .footer-icons a {
+}
+
+.footer-distributed .footer-icons a {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
 	background-color: #33383b;
 	border-radius: 2px;
-  
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-  
 	margin-right: 3px;
 	margin-bottom: 5px;
-  }
-  
-  /* If you don't want the footer to be responsive, remove these media queries */
-  
-  @media (max-width: 880px) {
-	.footer-distributed {
-	  font: bold 14px sans-serif;
-	}
-  
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right {
-	  display: block;
-	  width: 100%;
-	  margin-bottom: 40px;
-	  text-align: center;
-	}
-  
-	.footer-distributed .footer-center i {
-	  margin-left: 0;
-	}
-  }
+}
 
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+	.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.footer-distributed .footer-center i {
+		margin-left: 0;
+	}
+}
 
 /* Login Form */
 
-
 /* Bordered form */
-  
-  /* Full-width inputs */
-  input[type=text], input[type=password] {
+
+/* Full-width inputs */
+
+input[type=text], input[type=password] {
 	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
-  }
-  
-  /* Set a style for all buttons */
-  button {
+}
+
+/* Set a style for all buttons */
+
+button {
 	background-color: #04AA6D;
 	color: white;
 	padding: 14px 20px;
@@ -211,57 +202,66 @@ ul {
 	border: none;
 	cursor: pointer;
 	width: 100%;
-  }
-  
-  /* Add a hover effect for buttons */
-  button:hover {
+}
+
+/* Add a hover effect for buttons */
+
+button:hover {
 	opacity: 0.8;
-  }
-  
-  /* Extra style for the cancel button (red) */
-  .cancelbtn {
+}
+
+/* Extra style for the cancel button (red) */
+
+.cancelbtn {
 	width: auto;
 	padding: 10px 18px;
 	background-color: #f44336;
-  }
-  
-  /* Center the avatar image inside this container */
-  .imgcontainer {
+}
+
+/* Center the avatar image inside this container */
+
+.imgcontainer {
 	text-align: center;
 	margin: 24px 0 12px 0;
-  }
-  
-  /* Avatar image */
-  img.avatar {
-	  height: 100px;
+}
+
+/* Avatar image */
+
+img.avatar {
+	height: 100px;
 	border-radius: 50%;
-  }
-  
-  /* Add padding to containers */
-  .container {
+}
+
+/* Add padding to containers */
+
+.container {
 	padding: 16px;
-  }
-  
-  /* The "Forgot password" text */
-  span.psw {
+}
+
+/* The "Forgot password" text */
+
+span.psw {
 	float: right;
 	padding-top: 16px;
-  }
-  
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
 	span.psw {
-	  display: block;
-	  float: none;
+		display: block;
+		float: none;
 	}
 	.cancelbtn {
-	  width: 100%;
+		width: 100%;
 	}
-  }
-
+}
 
 }
 
 body {
-    background-color: #BD9F79;
+	background-color: #BD9F79 !important ;
+	height: 100% !important ;
+	margin: 0;
+	padding: 0;
 }
