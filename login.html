@@ -18,9 +18,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f59bcd8580.js"></script>
 </head>
 
-<body>
 
     <main>
 
@@ -31,7 +31,7 @@
                 <div>
                     <nav class="navbar navbar-expand-md p-0">
                         <a href="/index.html">
-                            <img src="/images/updatedlogo.png" alt="logo" id="logo" style="height:110px;"> </a>
+                            <img src="/images/logobg-removebg-preview.png" alt="logo" id="logo" style="height:110px;"> </a>
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link" href="home.html">Home</a>
@@ -52,31 +52,32 @@
                     </nav>
                 </div>
             </header>
-            <div class="login-form">
-                <h2 class="text-center">Member Login</h2>
-                <form action="/examples/actions/confirmation.php" method="post">
-                    <div class="avatar">
-                        <img src="/images/avatar.png" alt="Avatar">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control input-lg" name="username" placeholder="Username"
-                            required="required">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control input-lg" name="password" placeholder="Password"
-                            required="required">
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Sign in</button>
-                    </div>
+
+            <!-- Login Form -->
+            <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                    <img src="/images/avatar.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
                     <label>
                         <input type="checkbox" checked="checked" name="remember"> Remember me
                     </label>
+                </div>
 
-                    <p class="hint-text">Don't have an account? <a href="#">Sign up here</a></p>
-                </form>
-                <div class="form-footer"><a href="#">Forgot Your Password?</a></div>
-            </div>
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+
         </body>
 
     </main>
@@ -135,6 +136,5 @@
             </script>
 
             <!-- my JavaScript files will be included here -->
-</body>
 
 </html>

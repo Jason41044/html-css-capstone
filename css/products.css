@@ -144,7 +144,7 @@ ul {
 }
 
 .featured-products h1 {
-    font-size: 50pt;
+    font-size: 40pt;
 }
 
 
@@ -210,3 +210,21 @@ text-align: left; }
     height: 300px;
 }
 
+
+
+/* Product Page Header */
+
+
+.productheader h1 {
+  text-align: center;
+  font-size: 50pt;
+}
+
+.productheader h2 {
+  text-align: center;
+  font-size: 40pt;
+}
+
+.productheader {
+  padding: 70px;
+}
