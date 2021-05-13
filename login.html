@@ -22,119 +22,131 @@
 </head>
 
 
-    <main>
+<main>
 
-        <body>
-            <header>
+    <body>
+        <header>
+            <!-- NAV BAR -->
+            <div>
+                <nav class="navbar navbar-expand-md p-0">
+                    <a href="/index.html">
+                        <img src="/images/logobg-removebg-preview.png" alt="logo" id="logo" style="height:110px;"> </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-                <!-- NAV BAR -->
-                <div>
-                    <nav class="navbar navbar-expand-md p-0">
-                        <a href="/index.html">
-                            <img src="/images/logobg-removebg-preview.png" alt="logo" id="logo" style="height:110px;"> </a>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="products.html">Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="register.html">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+        <!-- Login Form -->
+        <form action="action_page.php" method="post" id="loginform">
+            <div class="imgcontainer">
+                <img src="/images/avatar.png" alt="Avatar" class="avatar">
+            </div>
 
-            <!-- Login Form -->
-            <form action="action_page.php" method="post">
-                <div class="imgcontainer">
-                    <img src="/images/avatar.png" alt="Avatar" class="avatar">
-                </div>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
 
-                <div class="container">
-                    <label for="uname"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
 
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
 
-                    <button type="submit">Login</button>
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                    </label>
-                </div>
-
-                <div class="container" style="background-color:#f1f1f1">
-                    <button type="button" class="cancelbtn">Cancel</button>
-                    <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
-            </form>
-
-        </body>
-
-    </main>
-    <!-- FOOTER -->
-    <footer>
-        <div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
-            <footer>
-                <div class="row my-5 justify-content-center py-5">
-                    <div class="col-11">
-                        <div class="row ">
-                            <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
-                                <h3 class="text-muted mb-md-0 mb-5 bold-text">Pepper.</h3>
-                            </div>
-                            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
-                                <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
-                                <ul class="list-unstyled">
-                                    <li>Home</li>
-                                    <li>About</li>
-                                    <li>Blog</li>
-                                    <li>Portfolio</li>
-                                </ul>
-                            </div>
-                            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
-                                <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
-                                <p class="mb-1">56 Hope Road</p>
-                                <p>Kingston, Jamaica</p>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div
-                                class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
-                                <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i
-                                            class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i
-                                            class="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                                    <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span
-                                        class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                                </p>
-                                <small class="rights"><span>&#174;</span> Pepper All Rights Reserved.</small>
-                            </div>
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
 
 
-                        </div>
-                    </div>
-                </div>
-            </footer>
+</main>
+<!-- FOOTER -->
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <IMG SRC="/images/nobglogo.png" ALT="" WIDTH=150 HEIGHT=100>
+
+        <p class="footer-links">
+            <a href="#">Home</a> ·
+            <a href="#">About</a> ·
+            <a href="#">Pricing</a> ·
+            <a href="#">About</a> ·
+            <a href="#">Faq</a> ·
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Rosario Coffee &copy; 2021</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>56 Hope Road</span> Kingston, Jamaica</p>
         </div>
-    </footer>
 
-    <!--Bootstrap Script files go at the bottom of the body-->
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>212-849-9826</p>
+        </div>
 
-    <scriptsrc="https: //code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@Rosariocoffee.com">support@Rosariocoffee.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About Us</span> Blah Blah..Blah blah bl;ah blah
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+    </div>
+
+</footer>
+</body>
+
+<!--Bootstrap Script files go at the bottom of the body-->
+
+<scriptsrc="https: //code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <scriptsrc="https: //cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
         </script>
-        <scriptsrc="https: //cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-            </script>
 
-            <!-- my JavaScript files will be included here -->
+        <!-- my JavaScript files will be included here -->
+       
 
 </html>

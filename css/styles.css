@@ -94,8 +94,9 @@ ul {
 
 .nav-link {
     color: #221411 ;
-    justify-content: space-between;
-    align-content: center;
+    text-align: center;
+    font-size: 45pt;
+    
 }
 
 
@@ -168,7 +169,7 @@ ul {
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-
+  position: relative;
   padding: 55px 50px;
   margin-top: 80px;
 }
