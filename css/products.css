@@ -203,17 +203,6 @@ text-align: left; }
 
  
 
-/* Video */
-
-#myVideo {
-    background-size: contain;
-    position:relative
-    top 0;
-    bottom: 0 ;
-    width: 100% !important;
-    height: auto !important;
- }
-
 
 /* Card img */
 
