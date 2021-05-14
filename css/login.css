@@ -1,17 +1,22 @@
 /* Navbar*/
 
 .navbar {
-	background-color: #BD9F79;
-}
-
-ul {
-	font-size: 30px;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-}
-
-.nav-link {
-	color: black;
+	background-color: #BD9F79 ; 
+	}
+  
+  ul {
+		font-size: 50px;
+		font-family: 'Lato', sans-serif;
+		text-align: center;     
+  }
+  
+  .nav-link {
+	color: black ;
+  }
+  
+  #logo {
+    float: left;
+    position: relative;
 }
 
 /* Footer */

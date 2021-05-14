@@ -1,3 +1,14 @@
+.altitude{
+  text-align: center;
+  color: #221411;
+  font-weight: bold;
+}
+
+.altitudediv {
+  padding: 50px;
+}
+
+
 
 
 /* Main Page Content */
@@ -42,7 +53,8 @@ section {
 }
 
 .large-font {
-  font-size: 48px;
+  font-size: 38px;
+  font-weight: normal;
 }
 
 .xlarge-font {
@@ -91,20 +103,22 @@ section {
 /* Navbar*/
 
 .navbar {
-    background-color: #BD9F79 ; 
-    }
+  background-color: #BD9F79 ; 
+  }
 
 ul {
-        font-size: 30px;
-        font-family: 'Lato', sans-serif;
-        text-align: center;     
+      font-size: 50px;
+      font-family: 'Lato', sans-serif;
+      text-align: center;     
 }
 
 .nav-link {
-    color: #221411 ;
-    text-align: center;
-    font-size: 40pt;
-    
+  color: black ;
+}
+
+#logo {
+  float: left;
+  position: relative;
 }
 
 
@@ -123,9 +137,10 @@ ul {
 
   
   .price {
-    color: grey;
+    color: #221411 ;
     font-size: 22px;
     text-align: center;
+    font-weight: bold;
   }
   
   .cards button {
@@ -160,12 +175,7 @@ ul {
 }
 
 
-/* Logo */
 
-#logo {
-    float: left;
-    position: relative;
-}
 
 
 
@@ -234,6 +244,7 @@ table {
 
 .footer-distributed h3 span {
   color: #221411;
+  font-weight:normal
 }
 
 /* Footer links */
@@ -373,9 +384,6 @@ table {
     margin-left: 0;
   }
 }
-
-
- 
 
  
 

@@ -1,8 +1,7 @@
 
 body {
-  background-color: #BD9F79;
+  background-color:#BD9F79 ;
 }
-
 
 
 /* Navbar*/
@@ -12,7 +11,7 @@ body {
   }
 
 ul {
-      font-size: 30px;
+      font-size: 50px;
       font-family: 'Lato', sans-serif;
       text-align: center;     
 }
@@ -21,97 +20,211 @@ ul {
   color: black ;
 }
 
+#logo {
+  float: left;
+  position: relative;
+}
 
 /* Footer */
 
-footer {
-  position: static;
+.footer-distributed {
+  background-color: #BD9F70;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.50);
+  box-sizing: border-box;
   width: 100%;
-  bottom: 0;
-  color: white;
-  text-align: center; }
-  
-  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-  
-   footer {
-       background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
-       font-family: 'Rubik', sans-serif;
-       background: #455A64;
-       height: 100 !important
-   }
-  
-   .container-fluid {
-       overflow: hidden;
-       margin-top: 100px;
-       background: #262626;
-       color: #627482 !important;
-       margin-bottom: 0;
-       padding-bottom: 0
-   }
-  
-   small {
-       font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
-   }
-  
-   .bold-text {
-       color: #989c9e !important
-   }
-  
-   .mt-55 {
-       margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
-   }
-  
-   h3 {
-       font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
-   }
-  
-   .social {
-       font-size: 21px !important
-   }
-  
-   .rights {
-       font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
-   }
+  text-align: left;
+  font: bold 16px sans-serif;
+  position: relative;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
 
+/* Footer left */
 
+.footer-distributed .footer-left {
+  width: 40%;
+}
 
+/* The company logo */
 
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Cookie", cursive;
+  margin: 0;
+}
 
+.footer-distributed h3 span {
+  color: #221411;
+}
 
+/* Footer links */
 
+.footer-distributed .footer-links {
+  color: #221411;
+  margin: 20px 0 12px;
+  padding: 0;
+  font-size: 25px;
+}
 
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
 
+.footer-distributed .footer-company-name {
+  color: #221411;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0;
+  font-weight: bold;
+}
 
+/* Footer Center */
 
+.footer-distributed .footer-center {
+  width: 35%;
+}
 
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
 
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
 
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #221411;
+  vertical-align: middle;
+  margin: 0;
+  font-weight: bold;
+}
 
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
 
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
 
+#addy {
+  color: #221411;
+  font-weight: bold;
+  font-size: 15px;
+}
 
+/* Footer Right */
 
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #221411;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #221411;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
 
 /* Register form*/
 
-form.register{box-sizing: border-box}
+form.register {
+  box-sizing: border-box
+}
 
 /* Add padding to containers */
+
 .container.register {
   padding: 16px;
 }
 
 #firstname {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
 
 /* Full-width input fields */
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
@@ -127,12 +240,14 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Overwrite default styles of hr */
+
 hr.register {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
 /* Set a style for the submit/register button */
+
 .registerbtn#btnregister {
   background-color: #04AA6D;
   color: white;
@@ -145,15 +260,17 @@ hr.register {
 }
 
 .registerbtn#btnregister:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 /* Add a blue text color to links */
+
 a.register {
   color: dodgerblue;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
+
 .signin.register {
   background-color: #f1f1f1;
   text-align: center;

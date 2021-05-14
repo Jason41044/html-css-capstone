@@ -16,36 +16,42 @@
     <link rel="stylesheet" href="css/login.css">
 
 </head>
+<main>
 
 <body style="height:100%;background-color:#BD9F79">
-    <main>
-
 
         <header>
+
             <!-- NAV BAR -->
             <div>
-                <nav class="navbar navbar-expand-md p-0">
-                    <a href="/index.html">
-                        <img src="/images/logobg-removebg-preview.png" alt="logo" id="logo" style="height:110px;"> </a>
+                <a href="/index.html">
+                    <img src="/images/logobg-removebg-preview.png" alt="logo" id="logo" style="height:110px;"> </a>
+                <nav class="navbar navbar-expand-md p-0 justify-content-around">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="home.html">Home</a>
+                            <a class="nav-link" href="/index.html">Home
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="products.html">Products</a>
+                            <a class="nav-link" href="products.html">Products
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="register.html">Register</a>
+                            <a class="nav-link" href="register.html">Register
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
+                            <a class="nav-link" href="login.html">Login
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Contact Us
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                     </ul>
                 </nav>
             </div>
+
         </header>
 
         <!-- Login Form -->
@@ -68,13 +74,12 @@
             </div>
 
             <div class="container" style="background-color:#BD9F79">
-                <button type="button" class="registerbtn">Register</button>
+                <button onclick="location.href='/register.html'" type="button" class="registerbtn">Register</button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
         </form>
 
-
-    </main>
+    
     <!-- FOOTER -->
     <footer class="footer-distributed">
 
@@ -83,14 +88,12 @@
             <IMG SRC="/images/nobglogo.png" ALT="" WIDTH=150 HEIGHT=100>
 
             <p class="footer-links">
-                <a href="#">Home</a> ·
-                <a href="#">About</a> ·
-                <a href="#">Pricing</a> ·
-                <a href="#">About</a> ·
-                <a href="#">Faq</a> ·
-                <a href="#">Contact</a>
+                <a href="/index.html">Home</a> ·
+                <a href="/products.html">Products</a> ·
+                <a href="/register.html">Register</a> ·
+                <a href="/login.html">Login</a> ·
+                <a href="/contact.html">Contact</a>
             </p>
-
             <p class="footer-company-name">Rosario Coffee &copy; 2021</p>
         </div>
 
@@ -98,7 +101,7 @@
 
             <div>
                 <i class="fa fa-map-marker"></i>
-                <p><span>56 Hope Road</span> Kingston, Jamaica</p>
+                <p><span id="addy">56 Hope Road</span> Kingston, Jamaica</p>
             </div>
 
             <div>
@@ -116,7 +119,8 @@
         <div class="footer-right">
 
             <p class="footer-company-about">
-                <span>About Us</span> Blah Blah..Blah blah bl;ah blah
+                <span>About Us</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                consectetur, sem et vestibulum aliquam, lacus nibh semper metus.
             </p>
 
             <div class="footer-icons">
@@ -131,6 +135,7 @@
         </div>
 
     </footer>
+</main>
 
 
     <!--Bootstrap Script files go at the bottom of the body-->
